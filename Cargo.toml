@@ -1,0 +1,10 @@
+[workspace]
+members = [
+  "vector-add",
+  "ray-tracing",
+]
+
+exclude = [
+  "vector-add-kernel",
+  "ray-tracing-kernel",
+]

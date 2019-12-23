@@ -1,0 +1,10 @@
+[package]
+name = "vector-add-kernel"
+version = "0.1.0"
+authors = ["Masato Mouri <13274198+mouri111@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cuda-tools = { git = "https://github.com/mouri111/cuda-tools.git" }
